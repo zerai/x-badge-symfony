@@ -60,5 +60,11 @@
             "allow-contrib": false,
             "require": "5.3.*"
         }
+    },
+    "repositories": {
+        "repo-name": {
+            "type": "vcs",
+            "url": "https://github.com/zerai/x-badge.git"
+        }
     }
 }
