@@ -7,3 +7,15 @@ badge_composerlock:
   controller: App\Controller\ComposerLockController
   requirements:
     repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
+badge_total_downloads:
+  path: /{repository}/downloads
+  controller: App\Controller\TotalDownloadsController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
+badge_total_downloads_alternative:
+  path: /{repository}/d/total
+  controller: App\Controller\TotalDownloadsController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
