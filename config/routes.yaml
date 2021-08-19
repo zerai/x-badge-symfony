@@ -19,3 +19,9 @@ badge_total_downloads_alternative:
   controller: App\Controller\TotalDownloadsController
   requirements:
     repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
+badge_monthly_downloads:
+  path: /{repository}/d/monthly
+  controller: App\Controller\MonthlyDownloadsController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
