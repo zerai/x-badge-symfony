@@ -37,3 +37,9 @@ badge_gitattributes:
   controller: App\Controller\GitAttributesController
   requirements:
     repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
+badge_dependents:
+  path: /{repository}/dependents
+  controller: App\Controller\DependentsController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'

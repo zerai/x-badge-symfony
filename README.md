@@ -34,6 +34,10 @@ http://127.0.0.1/nyholm/psr7/d/monthly
 
 http://127.0.0.1/nyholm/psr7/d/monthly
 
-### Gitattributes downloads badge:
+### Gitattributes badge:
 
-http://127.0.0.1/doctrine/collections/gitattributes
+http://127.0.0.1/doctrine/collections/
+
+### Dependents badge:
+
+http://127.0.0.1/doctrine/collections/dependents
