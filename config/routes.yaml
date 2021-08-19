@@ -43,3 +43,9 @@ badge_dependents:
   controller: App\Controller\DependentsController
   requirements:
     repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
+badge_suggesters:
+  path: /{repository}/suggesters
+  controller: App\Controller\SuggestersController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
