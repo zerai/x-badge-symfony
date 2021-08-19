@@ -33,3 +33,7 @@ http://127.0.0.1/nyholm/psr7/d/monthly
 ### Daily downloads badge:
 
 http://127.0.0.1/nyholm/psr7/d/monthly
+
+### Gitattributes downloads badge:
+
+http://127.0.0.1/doctrine/collections/gitattributes

@@ -31,3 +31,9 @@ badge_daily_downloads:
   controller: App\Controller\DailyDownloadsController
   requirements:
     repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
+badge_gitattributes:
+  path: /{repository}/gitattributes
+  controller: App\Controller\GitAttributesController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
