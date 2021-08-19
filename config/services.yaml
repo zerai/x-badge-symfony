@@ -23,3 +23,35 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+
+    Badge\Application\BadgeApplication:
+        factory: [ '@App\Infrastructure\ProductionServiceContainer', 'application' ]
+        public: true
+
+    Badge\Application\PortIn\CreateComposerLockBadge:
+        alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateGitattributesBadge:
+        alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateSuggestersBadge:
+        alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateDependentsBadge:
+        alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateTotalDownloadsBadge:
+        alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateMonthlyDownloadsBadge:
+        alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateDailyDownloadsBadge:
+        alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateStableVersionBadge:
+        alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateUnstableVersionBadge:
+        alias: 'Badge\Application\BadgeApplication'
