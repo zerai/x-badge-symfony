@@ -55,3 +55,10 @@ badge_stable_version:
   controller: App\Controller\StableVersionController
   requirements:
     repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
+badge_unstable_version:
+  path: /{repository}/v/unstable
+  controller: App\Controller\UnstableVersionController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
