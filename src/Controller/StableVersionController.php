@@ -1,10 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Controller;
 
 use App\Infrastructure\BadgeResponseFactory;
 use Badge\Application\PortIn\CreateStableVersionBadge;
-use Badge\Application\PortIn\CreateSuggestersBadge;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
