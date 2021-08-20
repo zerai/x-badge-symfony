@@ -60,6 +60,9 @@
         "symfony": {
             "allow-contrib": false,
             "require": "5.3.*"
+        },
+        "bamarni-bin": {
+            "target-directory": "tools"
         }
     },
     "repositories": {
@@ -67,5 +70,8 @@
             "type": "vcs",
             "url": "https://github.com/zerai/x-badge.git"
         }
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.4"
     }
 }

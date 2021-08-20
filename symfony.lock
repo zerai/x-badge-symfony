@@ -2,6 +2,9 @@
     "badges/poser": {
         "version": "v2.1.0"
     },
+    "bamarni/composer-bin-plugin": {
+        "version": "1.4.1"
+    },
     "bitbucket/client": {
         "version": "v3.3.1"
     },
