@@ -10,3 +10,7 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+###> tools ###
+/tools/**/vendor
+###< tools ###
