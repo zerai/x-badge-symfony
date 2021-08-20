@@ -49,3 +49,9 @@ badge_suggesters:
   controller: App\Controller\SuggestersController
   requirements:
     repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
+
+badge_stable_version:
+  path: /{repository}/v/stable
+  controller: App\Controller\StableVersionController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
