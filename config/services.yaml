@@ -55,3 +55,6 @@ services:
 
     Badge\Application\PortIn\CreateUnstableVersionBadge:
         alias: 'Badge\Application\BadgeApplication'
+
+    Badge\Application\PortIn\CreateLicenseBadge:
+        alias: 'Badge\Application\BadgeApplication'

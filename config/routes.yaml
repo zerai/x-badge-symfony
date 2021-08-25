@@ -62,3 +62,8 @@ badge_unstable_version:
   requirements:
     repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
 
+license_version:
+  path: /{repository}/license
+  controller: App\Controller\LicenseController
+  requirements:
+    repository: '[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+?'
