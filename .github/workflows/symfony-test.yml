@@ -65,9 +65,6 @@ jobs:
     - name: Install Composer dependencies
       run: composer install --prefer-dist --no-progress --no-suggest --ansi --no-scripts
 
-    - name: Install phpunit dependencies
-      run: bin/phpunit install
-
     - name: Run webserver
       run: symfony server:start --port=8080 --dir=public --daemon --no-tls
 
