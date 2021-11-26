@@ -9,7 +9,7 @@ updates:
     directory: "/"
     labels:
       - "dependency"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 10
     package-ecosystem: "composer"
     schedule:
       interval: "daily"
@@ -17,13 +17,12 @@ updates:
 
   - commit-message:
       include: "scope"
-      prefix: "tools"
-    directory: "/tools/*/"
+      prefix: "composer"
+    directory: "/tools/ecs"
     labels:
       - "dependency"
     open-pull-requests-limit: 5
     package-ecosystem: "composer"
     schedule:
       interval: "daily"
-      time: "15:00"
-    versioning-strategy: "increase"
+    versioning-strategy: "increase-if-necessary"
