@@ -11,7 +11,7 @@
         "ext-iconv": "*",
         "nyholm/psr7": "^1.4",
         "symfony/console": "5.3.*",
-        "symfony/dotenv": "5.3.*",
+        "symfony/dotenv": "5.4.*",
         "symfony/flex": "^1.17.6",
         "symfony/framework-bundle": "5.3.*",
         "symfony/monolog-bundle": "^3.7",
