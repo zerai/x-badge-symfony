@@ -22,7 +22,8 @@
     "config": {
         "allow-plugins": {
             "bamarni/composer-bin-plugin": true,
-            "symfony/flex": true
+            "symfony/flex": true,
+            "symfony/runtime": true
         },
         "optimize-autoloader": true,
         "preferred-install": {
