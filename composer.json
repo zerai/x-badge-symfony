@@ -20,6 +20,9 @@
         "zerai/x-badge": "^0.1.0"
     },
     "config": {
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true
+        },
         "optimize-autoloader": true,
         "preferred-install": {
             "*": "dist"
